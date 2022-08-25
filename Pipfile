@@ -8,6 +8,10 @@ django = "*"
 beautifulsoup4 = "*"
 lxml = "*"
 requests = "*"
+environs = {extras = ["django"], version = "*"}
+psycopg2-binary = "*"
+whitenoise = "*"
+gunicorn = "*"
 
 [dev-packages]
 
